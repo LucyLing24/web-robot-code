@@ -36,3 +36,123 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex; /* 使用Flex布局 */
+  align-items: center; /* 垂直居中 */
+  height: 100%; /* 占满整个视口高度 */
+  flex-direction: column;
+}
+
+.pic-box {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  flex: 1; /* 使用flex属性让弹性盒子占据可用空间的比例，这里是1，占满剩余空间 */
+  background-color: #ffffff; /* 为了可见性添加一个背景颜色 */
+  width: 70vw;
+  max-height: 60%; /* 最大高度为60% */
+  margin-top: 100px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.pic{
+  width: 80%;
+}
+
+/*.button-box{*/
+/*  display: flex; !* 使用Flex布局 *!*/
+/*  align-items: center; !* 垂直居中 *!*/
+/*  flex-direction: column;*/
+/*  margin-top: 10vh;*/
+/*  margin-bottom: 12vh;*/
+/*}*/
+.button-box {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* 水平居中 */
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; /* 在水平方向上居中 */
+  margin-bottom: 12vh;
+}
+
+.enter-button{
+  border: none;
+  background-color: #a1d359;
+  padding: 10px 20px;
+  border-radius: 3em;
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.cancel-button{
+  border: none;
+  background-color: #ea3131;
+  padding: 10px 20px;
+  border-radius: 3em;
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+}
+.send-button{
+  border: none;
+  background-color: #a1d359;
+  padding: 10px 20px;
+  border-radius: 3em;
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+  width: 40%;
+}
+.stop-button{
+  border: none;
+  background-color: #ffa333;
+  padding: 10px 20px;
+  border-radius: 3em;
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.create-button{
+  border: none;
+  background-color: #a1d359;
+  padding: 10px 20px;
+  border-radius: 3em;
+  color: white;
+  font-weight: bolder;
+  font-size: small;
+}
+.continue-button{
+  border: none;
+  background-color: #6fa7e8;
+  padding: 10px 20px;
+  border-radius: 3em;
+  color: white;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.replay-button{
+  border: none;
+  background-color: #ffa333;
+  padding: 10px 20px;
+  border-radius: 3em;
+  color: white;
+  font-weight: bolder;
+  font-size: small;
+}
+
+.text{
+  background-color: rgba(255, 255, 255, 0);
+  color: #1c1c1c;
+  font-weight: bolder;
+  font-size: larger;
+}
